@@ -16,6 +16,10 @@ License
 
 Copyright 2014 Yutaka Kachi
 
+This software is released under the MIT License.
+
+Please see License or http://opensource.org/licenses/mit-license.php
+
 
 Library
 -------
