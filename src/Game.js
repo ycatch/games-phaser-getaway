@@ -168,11 +168,11 @@ BasicGame.Game.prototype = {
 		}
     },
 	
- 	render: function() {
+/*  	render: function() {
 	
         this.game.debug.text(this.game.time.fps + ' FPS', 16, 70, "#00ff00", "16px Courier"); 		
  
-    },
+    }, */
 
     quitGame: function (status) {
 

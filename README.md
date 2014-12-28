@@ -5,6 +5,11 @@ This is original side scroll game.
 
 Tap or Click for JUMP.
 
+Demo
+-------
+
+http://www.catch.jp/program/phaser/getaway/
+
 
 License
 -------
