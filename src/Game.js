@@ -181,15 +181,15 @@ BasicGame.Game.prototype = {
 		this.getSound.stop();
 		if(status == 'getaway')
 		{
-			this.add.sprite(this.camera.x + (this.camera.width - 400) / 2, 30, 'getaway');
+			this.add.sprite(this.camera.x + (this.camera.width - 294) / 2, 40, 'getaway');
 		} else {
 			this._player.frame = 3;
-			this.add.sprite(this.camera.x + (this.camera.width - 331) / 2, 30, 'catch');
+			this.add.sprite(this.camera.x + (this.camera.width - 294) / 2, 40, 'catch');
 		}
-		var button = this.add.sprite((this.game.width - 98) / 2, this.game.height - 120, 'start-button');
+		//var button = this.add.sprite((this.game.width - 98) / 2, this.game.height - 120, 'start-button');
 		
 		this.game.paused = true;
-		var pausedText = this.add.text(this.camera.x + 40, 240, "Click anywhere to Menu.", { fontSize: '10px', fill: '#000' });
+		var pausedText = this.add.text(this.camera.x + 60, 240, "Click to Menu.", { fontSize: '8px', fill: '#000' });
 
 
 		//  Then let's go back to the main menu.

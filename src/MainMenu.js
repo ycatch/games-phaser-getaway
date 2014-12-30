@@ -9,8 +9,8 @@ BasicGame.MainMenu.prototype = {
 	create: function() {
 
 		var logo = this.add.sprite(0, 0, 'titlepage');
-		var leadText = this.add.text(80, this.game.height - 200,
-		 "Tap / Click to Jump.", { fontSize: '8px', fill: '#FFF' });
+		var leadText = this.add.text(50, 120,
+		 "Jump:Tap/Click", { fontSize: '6px', fill: '#FFF' });
 
 		var button = this.add.button((this.game.width - 98) / 2, 
 		 this.game.height - 120, 'start-button', this.startGame, this, 1, 0);
